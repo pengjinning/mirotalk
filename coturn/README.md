@@ -9,9 +9,11 @@ Set up `CoTURN` with Docker for NAT traversal and media relay in WebRTC applicat
 ### 1. Prepare Docker Compose
 
 1. Copy the template:
+
     ```bash
     cp docker-compose.template.yml docker-compose.yml
     ```
+
 2. Edit `docker-compose.yml` to fit your environment.
 3. Use Let's Encrypt and Certbot for SSL certificates. Replace `YOUR.DOMAIN` in `docker-compose.yml` with your actual domain name.
     - Learn more about Let's Encrypt: [Click here](https://letsencrypt.org/).
@@ -20,9 +22,11 @@ Set up `CoTURN` with Docker for NAT traversal and media relay in WebRTC applicat
 ### 2. Configure TURN Server
 
 1. Copy the template:
+
     ```bash
     cp turnserver.template.conf turnserver.conf
     ```
+
 2. Edit `turnserver.conf`:
     - Replace `YOUR.DOMAIN.NAME` with your domain.
     - Replace `YOUR.USERNAME` and `YOUR.PASSWORD` with your credentials.

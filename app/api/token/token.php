@@ -1,8 +1,8 @@
 <?php
 
 $API_KEY_SECRET = "mirotalkp2p_default_secret";
-$MIROTALK_URL = "https://p2p.mirotalk.com/api/v1/token";
-#$MIROTALK_URL = "http://localhost:3000/api/v1/token";
+// $MIROTALK_URL = "https://p2p.mirotalk.com/api/v1/token";
+$MIROTALK_URL = "http://localhost:3000/api/v1/token";
 
 $ch = curl_init();
 curl_setopt($ch, CURLOPT_URL, $MIROTALK_URL);

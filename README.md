@@ -167,6 +167,12 @@ When [host protection](https://docs.mirotalk.com/mirotalk-p2p/host-protection/) 
 - Before running MiroTalk P2P, ensure you have `Node.js` [installed](https://nodejs.org/en/download).
 
 ```bash
+nvm install 22.12.0
+nvm use 22.12.0
+```
+
+```bash
+export http_proxy=http://127.0.0.1:10818 && export https_proxy=http://127.0.0.1:10818
 # clone this repo
 $ git clone https://github.com/miroslavpejic85/mirotalk.git
 # go to mirotalk dir
